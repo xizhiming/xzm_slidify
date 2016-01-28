@@ -1,0 +1,37 @@
+---
+title: Testing ImpressJS
+author: Ramnath Vaidyanathan
+mode  : selfcontained
+framework: impressjs
+lib: /libraries
+--- #title1 x:-2000 y:-1500 rot:45 scale:1
+
+<span>以(-2000,-1500)为中心点顺时针旋转45度</span>
+
+--- #title2 x:-2000 y:-1000 rot:0 scale:1
+
+<span>以(-2000,-1000)为中心点放置</span>
+
+--- #title3 x:-2000 y:-500 rot:-45 scale:1
+
+<span>以(-2000,-500)为中心点逆时针旋转45度</span>
+
+--- .slide x:-1000 y:-1000
+
+<q>这是一个幻灯片，你看出来了吗？</q>
+
+--- #title4 x:1500 y:-1000 scale:4
+
+<span>这里的字放大了四倍哦...</span>
+</br>
+<span>这里换行了哟...</span>
+
+--- #impress x:1500 y:-1100 z:-3000 rot:300 scale:1
+
+<span>在(1500,-1100,-3000)的空间中放置，而且还旋转了300度</span>
+
+--- #its-in-3d x:2000 y:-1200 z:-3000 rotx:-40 roty:-10 scale:1
+
+<span>Go,Go,Go......</span>
+
+
